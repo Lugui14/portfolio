@@ -49,6 +49,9 @@ export const Header = () => {
                 <LinkItem href={'#'} fontSize={'xl'}>
                     Skills
                 </LinkItem>
+                <LinkItem href={'#'} fontSize={'xl'}>
+                    Contact
+                </LinkItem>
             </HStack>
 
             <Box display={{ base: 'inline-block', md: 'none' }}>
@@ -79,6 +82,9 @@ export const Header = () => {
                         </MenuItem>
                         <MenuItem as={LinkItem} href={'#'} fontSize={'xl'}>
                             Skills
+                        </MenuItem>
+                        <MenuItem as={LinkItem} href={'#'} fontSize={'xl'}>
+                            Contact
                         </MenuItem>
                     </MenuList>
                 </Menu>
