@@ -3,6 +3,7 @@ import { Flex, Box, Text, Heading, Image } from '@chakra-ui/react';
 export const About = () => {
     return (
         <Flex
+            id={'about'}
             flexDir={{ base: 'column', lg: 'row' }}
             w={'100vw'}
             borderBottom={'2px solid black'}
@@ -13,7 +14,7 @@ export const About = () => {
                 gap={8}
                 w={{ base: '100%', lg: '70%' }}
                 borderRight={{ base: 0, lg: '2px solid black' }}
-                borderBottom={{ base: '2px solid black', lg: 0 }}
+                borderBottom={{ base: '2px solid black', md: 0 }}
             >
                 <Heading
                     textAlign={{ base: 'center', lg: 'start' }}
@@ -42,10 +43,14 @@ export const About = () => {
 
             <Box
                 w={{ base: '100%', lg: '30%' }}
-                display={'flex'}
-                justifyContent={'center'}
+                display={{ base: 'flex', md: 'none', lg: 'flex' }}
+                justifyContent={{ base: 'center', md: 'start' }}
             >
-                <Image src="https://github.com/Lugui14.png" alt="My Face" />
+                <Image
+                    src="https://github.com/Lugui14.png"
+                    alt="My Face"
+                    borderX={{ base: '2px solid black', md: 0 }}
+                />
             </Box>
         </Flex>
     );

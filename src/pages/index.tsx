@@ -12,13 +12,7 @@ const Home: NextPage = () => {
             <Head>
                 <title>Luiz | Portfolio</title>
             </Head>
-            <Box
-                as={'div'}
-                bg={'pallete.bg'}
-                minH={'100vh'}
-                minW={'100vw'}
-                overflowX={'hidden'}
-            >
+            <Box as={'div'} bg={'pallete.bg'} minH={'100vh'} minW={'100vw'}>
                 <Header />
                 <Hero />
                 <About />

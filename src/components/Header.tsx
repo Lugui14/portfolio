@@ -51,19 +51,19 @@ export const Header = () => {
                 justifyContent={'center'}
                 gap={12}
             >
-                <LinkItem href={'#'} fontSize={'xl'}>
+                <LinkItem href={'#home'} fontSize={'xl'}>
                     Home
                 </LinkItem>
-                <LinkItem href={'#'} fontSize={'xl'}>
+                <LinkItem href={'#about'} fontSize={'xl'}>
                     About
                 </LinkItem>
-                <LinkItem href={'#'} fontSize={'xl'}>
+                <LinkItem href={'#projects'} fontSize={'xl'}>
                     Projects
                 </LinkItem>
-                <LinkItem href={'#'} fontSize={'xl'}>
+                <LinkItem href={'#skills'} fontSize={'xl'}>
                     Skills
                 </LinkItem>
-                <LinkItem href={'#'} fontSize={'xl'}>
+                <LinkItem href={'#contact'} fontSize={'xl'}>
                     Contact
                 </LinkItem>
             </HStack>
@@ -85,19 +85,31 @@ export const Header = () => {
                     </MenuButton>
 
                     <MenuList gap={8} rounded={0} border={'2px solid black'}>
-                        <MenuItem as={LinkItem} href={'#'} fontSize={'xl'}>
+                        <MenuItem as={LinkItem} href={'#home'} fontSize={'xl'}>
                             Home
                         </MenuItem>
-                        <MenuItem as={LinkItem} href={'#'} fontSize={'xl'}>
+                        <MenuItem as={LinkItem} href={'#about'} fontSize={'xl'}>
                             About
                         </MenuItem>
-                        <MenuItem as={LinkItem} href={'#'} fontSize={'xl'}>
+                        <MenuItem
+                            as={LinkItem}
+                            href={'#projects'}
+                            fontSize={'xl'}
+                        >
                             Projects
                         </MenuItem>
-                        <MenuItem as={LinkItem} href={'#'} fontSize={'xl'}>
+                        <MenuItem
+                            as={LinkItem}
+                            href={'#skills'}
+                            fontSize={'xl'}
+                        >
                             Skills
                         </MenuItem>
-                        <MenuItem as={LinkItem} href={'#'} fontSize={'xl'}>
+                        <MenuItem
+                            as={LinkItem}
+                            href={'#contact'}
+                            fontSize={'xl'}
+                        >
                             Contact
                         </MenuItem>
                     </MenuList>

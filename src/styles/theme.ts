@@ -5,6 +5,7 @@ const theme = extendTheme({
         global: {
             'html, body': {
                 scrollBehavior: 'smooth',
+                overflowX: 'hidden',
             },
         },
     },

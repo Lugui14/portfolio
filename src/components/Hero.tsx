@@ -12,6 +12,7 @@ import { LinkItem } from './LinkItem';
 export const Hero = () => {
     return (
         <Flex
+            id={'home'}
             flexDir={{ base: 'column', lg: 'row' }}
             justifyContent={{ base: 'center', lg: 'space-evenly' }}
             minH={'80vh'}
