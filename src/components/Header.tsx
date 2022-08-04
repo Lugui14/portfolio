@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import {
     Heading,
     HStack,
@@ -13,6 +14,14 @@ import { LinkItem } from '../components/LinkItem';
 import { AiOutlineMenu } from 'react-icons/ai';
 
 export const Header = () => {
+    const [YPosition, setYPosition] = useState(0);
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            setYPosition(scrollY);
+        });
+    }, []);
+
     return (
         <HStack
             position={'fixed'}
@@ -21,8 +30,13 @@ export const Header = () => {
             justifyContent={'space-between'}
             w={'100%'}
             px={{ base: 4, sm: 6, md: 24 }}
-            py={{ base: 2, sm: 6, md: 8 }}
+            py={
+                YPosition === 0
+                    ? { base: 2, sm: 6, md: 8 }
+                    : { base: 2, sm: 2, md: 3 }
+            }
             zIndex={1}
+            transition=".5s"
             bg={'pallete.topbg'}
         >
             <Heading letterSpacing={'tight'} as={'h3'}>
