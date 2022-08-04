@@ -19,6 +19,7 @@ export const Hero = () => {
             pt={{ base: 32, lg: 40 }}
             pb={16}
             gap={{ base: 24, md: 12 }}
+            borderBottom={'2px solid black'}
         >
             <Stack
                 w={{ base: '100%', lg: '50%' }}
