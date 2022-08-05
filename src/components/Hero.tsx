@@ -57,7 +57,7 @@ export const Hero = () => {
                 >
                     <LinkItem
                         as={Button}
-                        href={'#'}
+                        href={'#about'}
                         w={{ base: '70%', lg: '30%' }}
                         rounded={4}
                         bg={'transparent'}
@@ -71,7 +71,7 @@ export const Hero = () => {
                     </LinkItem>
                     <LinkItem
                         as={Button}
-                        href={'#'}
+                        href={'#projects'}
                         w={{ base: '70%', lg: '30%' }}
                         rounded={4}
                         bg={'pallete.yellow'}

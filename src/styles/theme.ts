@@ -7,10 +7,31 @@ const theme = extendTheme({
                 scrollBehavior: 'smooth',
                 overflowX: 'hidden',
             },
+            '::-webkit-scrollbar': {
+                width: '4px',
+                height: '4px',
+            },
+            '::-webkit-scrollbar-button': {
+                width: '0px',
+                height: '0px',
+            },
+            '::-webkit-scrollbar-track:hover': {
+                background: '#ffffff',
+            },
+            '::-webkit-scrollbar-corner': {
+                background: 'transparent',
+            },
+            '::-webkit-scrollbar-thumb': {
+                background: 'black',
+            },
         },
     },
     fonts: {
         body: `'Bebas Neue', cursive`,
+    },
+    config: {
+        initialColorMode: 'light',
+        useSystemColorMode: false,
     },
     breakpoints: {
         sm: '320px',
@@ -32,6 +53,7 @@ const theme = extendTheme({
             yellow: '#fcfb7d',
             purple: '#ceafff',
             pink: '#fcace5',
+            white: '#f8fdf8',
         },
     },
 });

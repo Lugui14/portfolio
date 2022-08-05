@@ -8,7 +8,6 @@ import {
     MenuItem,
     MenuList,
     Button,
-    filter,
 } from '@chakra-ui/react';
 import { LinkItem } from '../components/LinkItem';
 import { AiOutlineMenu } from 'react-icons/ai';

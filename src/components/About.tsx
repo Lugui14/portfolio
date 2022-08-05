@@ -9,7 +9,7 @@ export const About = () => {
             borderBottom={'2px solid black'}
         >
             <Box
-                bg={'#f8fdf8'}
+                bg={'pallete.white'}
                 p={{ base: 8, md: 16, lg: 24 }}
                 gap={8}
                 w={{ base: '100%', lg: '70%' }}
