@@ -48,12 +48,15 @@ const theme = extendTheme({
         pallete: {
             topbg: 'rgba(255,235,214,.8)',
             bg: '#ffebd6',
+            bg2: '#fffff4',
             blue: '#7b73fd',
             red: '#fd6262',
             yellow: '#fcfb7d',
             purple: '#ceafff',
             pink: '#fcace5',
             white: '#f8fdf8',
+            green: '#53cc83',
+            lime: '#dbfd00',
         },
     },
 });

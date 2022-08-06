@@ -11,6 +11,7 @@ export const Projects = () => {
             flexDir={'column'}
             p={{ base: 4, sm: 8, md: 16 }}
             gap={8}
+            borderBottom={'3px solid black'}
         >
             <Flex
                 gap={4}

@@ -6,7 +6,7 @@ export const About = () => {
             id={'about'}
             flexDir={{ base: 'column', lg: 'row' }}
             w={'100vw'}
-            borderBottom={'2px solid black'}
+            borderBottom={'3px solid black'}
         >
             <Box
                 bg={'pallete.white'}

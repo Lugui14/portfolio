@@ -37,7 +37,7 @@ export const Card = ({ title, color, imageUri, children }: ICardProps) => {
                 rounded={8}
                 cursor={'pointer'}
                 onClick={onOpen}
-                bg={'pallete.white'}
+                bg={'pallete.bg2'}
                 transition={'.4s'}
                 _hover={{
                     transition: '.4s',
@@ -50,7 +50,7 @@ export const Card = ({ title, color, imageUri, children }: ICardProps) => {
                     alt={title}
                     rounded={8}
                     mb={8}
-                    h={'16em'}
+                    h={{ base: '10em', md: '16em' }}
                 />
                 <Heading
                     fontFamily="Bebas Neue"
@@ -61,11 +61,17 @@ export const Card = ({ title, color, imageUri, children }: ICardProps) => {
                 </Heading>
             </Box>
 
-            <Modal size={'xl'} isOpen={isOpen} onClose={onClose} isCentered>
+            <Modal
+                size={{ base: 'full', md: 'xl' }}
+                isOpen={isOpen}
+                onClose={onClose}
+                isCentered
+            >
                 <ModalOverlay rounded={0} bg={'pallete.bg'} />
                 <ModalContent
-                    border={'2px solid black'}
-                    boxShadow={'3px 3px black'}
+                    rounded={{ base: 0, md: 8 }}
+                    border={{ base: 0, md: '2px solid black' }}
+                    boxShadow={{ base: 0, md: '3px 3px black' }}
                     textAlign="center"
                 >
                     <ModalHeader letterSpacing="wider" fontSize="3xl">
