@@ -23,7 +23,10 @@ function MyApp({ Component, pageProps }: AppProps) {
                 />
 
                 <meta property="og:type" content="page" />
-                <meta property="og:url" content="portfolio.vercel.app" />
+                <meta
+                    property="og:url"
+                    content="https://portfolio-lugui14.vercel.app"
+                />
                 <meta
                     property="og:title"
                     content="Luiz Guilherme | Web Developer Portfolio"
