@@ -66,7 +66,11 @@ export const Skills = () => {
                                     ReactJS{' '}
                                 </Heading>
                             </AccordionButton>
-                            <AccordionPanel pb={4} bg={'pallete.bg2'}>
+                            <AccordionPanel
+                                pb={4}
+                                bg={'pallete.bg2'}
+                                rounded={8}
+                            >
                                 React is a JavaScript library of code open with
                                 a focus on creating user interfaces on web
                                 pages.
@@ -98,7 +102,11 @@ export const Skills = () => {
                                     NextJS{' '}
                                 </Heading>
                             </AccordionButton>
-                            <AccordionPanel pb={4} bg={'pallete.bg2'}>
+                            <AccordionPanel
+                                rounded={8}
+                                pb={4}
+                                bg={'pallete.bg2'}
+                            >
                                 Next.js is a web framework of open source React
                                 front-end development created by Vercel that
                                 allows functionalities like server-side
@@ -132,7 +140,11 @@ export const Skills = () => {
                                     Typescript{' '}
                                 </Heading>
                             </AccordionButton>
-                            <AccordionPanel pb={4} bg={'pallete.bg2'}>
+                            <AccordionPanel
+                                rounded={8}
+                                pb={4}
+                                bg={'pallete.bg2'}
+                            >
                                 TypeScript is an open source programming
                                 language developed by Microsoft. It is a strict
                                 syntactic superset of JavaScript and adds
@@ -167,7 +179,11 @@ export const Skills = () => {
                                     NodeJS{' '}
                                 </Heading>
                             </AccordionButton>
-                            <AccordionPanel pb={4} bg={'pallete.bg2'}>
+                            <AccordionPanel
+                                rounded={8}
+                                pb={4}
+                                bg={'pallete.bg2'}
+                            >
                                 Node.js is open source software, cross-platform,
                                 based on the V8 interpreter of Google and that
                                 allows code execution JavaScript outside of a
@@ -200,7 +216,11 @@ export const Skills = () => {
                                     Databases{' '}
                                 </Heading>
                             </AccordionButton>
-                            <AccordionPanel pb={4} bg={'pallete.bg2'}>
+                            <AccordionPanel
+                                rounded={8}
+                                pb={4}
+                                bg={'pallete.bg2'}
+                            >
                                 Databases or databases are sets of related files
                                 with records about people, places or things.
                             </AccordionPanel>
@@ -231,7 +251,11 @@ export const Skills = () => {
                                     Wordpress{' '}
                                 </Heading>
                             </AccordionButton>
-                            <AccordionPanel pb={4} bg={'pallete.bg2'}>
+                            <AccordionPanel
+                                rounded={8}
+                                pb={4}
+                                bg={'pallete.bg2'}
+                            >
                                 WordPress is a free and open content management
                                 system for the internet, based on PHP with a
                                 MySQL database, running on an interpreter
