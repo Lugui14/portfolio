@@ -1,7 +1,7 @@
 # Portfolio
 
 -   ![License](https://img.shields.io/github/license/Lugui14/chat-app)
--   ![Development](http://img.shields.io/static/v1?label=STATUS&message=Constructiont&color=GREEN&style=for-the-badge)
+-   ![Development](http://img.shields.io/static/v1?label=STATUS&message=finalizedt&color=GREEN&style=for-the-badge)
 
 ## Descrição do Projeto
 
@@ -26,7 +26,7 @@ yarn dev #Roda o projeto na porta 3000
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
--`NextJS`
+-`NextJS` -`Chakra UI` -`Send Grid`
 
 ## Licença
 
