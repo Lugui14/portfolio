@@ -14,10 +14,12 @@
     "@emotion/styled": "^11.10.0",
     "@fontsource/bebas-neue": "^4.5.7",
     "@fontsource/square-peg": "^4.5.2",
+    "@sendgrid/mail": "^7.7.0",
     "framer-motion": "^6.5.1",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.0",
     "react-icons": "^4.4.0"
   },
   "devDependencies": {
@@ -25,6 +27,7 @@
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "@types/react-icons": "^3.0.0",
+    "@types/sendgrid": "^4.3.0",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
     "eslint": "^7.32.0 || ^8.2.0",

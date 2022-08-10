@@ -7,6 +7,12 @@ import {
     Heading,
     Box,
 } from '@chakra-ui/react';
+import { FaReact } from 'react-icons/fa';
+import { TbBrandNextjs } from 'react-icons/tb';
+import { SiTypescript } from 'react-icons/si';
+import { GrNode } from 'react-icons/gr';
+import { FiDatabase } from 'react-icons/fi';
+import { BsWordpress } from 'react-icons/bs';
 
 export const Skills = () => {
     return (
@@ -52,18 +58,19 @@ export const Skills = () => {
                                     fontFamily={'Bebas Neue'}
                                     letterSpacing={'wider'}
                                     fontSize={'xl'}
+                                    display={'flex'}
+                                    alignItems="center"
+                                    gap={4}
                                 >
                                     {' '}
+                                    <FaReact size={24} />
                                     ReactJS{' '}
                                 </Heading>
                             </AccordionButton>
                             <AccordionPanel pb={4} bg={'pallete.bg2'}>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.
+                                React is a JavaScript library of code open with
+                                a focus on creating user interfaces on web
+                                pages.
                             </AccordionPanel>
                         </AccordionItem>
 
@@ -84,18 +91,21 @@ export const Skills = () => {
                                     fontFamily={'Bebas Neue'}
                                     letterSpacing={'wider'}
                                     fontSize={'xl'}
+                                    display={'flex'}
+                                    alignItems="center"
+                                    gap={4}
                                 >
                                     {' '}
+                                    <TbBrandNextjs size={24} />
                                     NextJS{' '}
                                 </Heading>
                             </AccordionButton>
                             <AccordionPanel pb={4} bg={'pallete.bg2'}>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.
+                                Next.js is a web framework of open source React
+                                front-end development created by Vercel that
+                                allows functionalities like server-side
+                                rendering and generation from static websites to
+                                web applications based on React.
                             </AccordionPanel>
                         </AccordionItem>
 
@@ -116,18 +126,20 @@ export const Skills = () => {
                                     fontFamily={'Bebas Neue'}
                                     letterSpacing={'wider'}
                                     fontSize={'xl'}
+                                    display={'flex'}
+                                    alignItems="center"
+                                    gap={4}
                                 >
                                     {' '}
-                                    Design Systems{' '}
+                                    <SiTypescript size={24} />
+                                    Typescript{' '}
                                 </Heading>
                             </AccordionButton>
                             <AccordionPanel pb={4} bg={'pallete.bg2'}>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.
+                                TypeScript is an open source programming
+                                language developed by Microsoft. It is a strict
+                                syntactic superset of JavaScript and adds
+                                optional static typing to the language.
                             </AccordionPanel>
                         </AccordionItem>
                     </Accordion>
@@ -150,18 +162,20 @@ export const Skills = () => {
                                     fontFamily={'Bebas Neue'}
                                     letterSpacing={'wider'}
                                     fontSize={'xl'}
+                                    display={'flex'}
+                                    alignItems="center"
+                                    gap={4}
                                 >
                                     {' '}
+                                    <GrNode size={24} />
                                     NodeJS{' '}
                                 </Heading>
                             </AccordionButton>
                             <AccordionPanel pb={4} bg={'pallete.bg2'}>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.
+                                Node.js is open source software, cross-platform,
+                                based on the V8 interpreter of Google and that
+                                allows code execution JavaScript outside of a
+                                web browser.
                             </AccordionPanel>
                         </AccordionItem>
 
@@ -182,18 +196,18 @@ export const Skills = () => {
                                     fontFamily={'Bebas Neue'}
                                     letterSpacing={'wider'}
                                     fontSize={'xl'}
+                                    display={'flex'}
+                                    alignItems="center"
+                                    gap={4}
                                 >
                                     {' '}
+                                    <FiDatabase size={24} />
                                     Databases{' '}
                                 </Heading>
                             </AccordionButton>
                             <AccordionPanel pb={4} bg={'pallete.bg2'}>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.
+                                Databases or databases are sets of related files
+                                with records about people, places or things.
                             </AccordionPanel>
                         </AccordionItem>
 
@@ -214,18 +228,21 @@ export const Skills = () => {
                                     fontFamily={'Bebas Neue'}
                                     letterSpacing={'wider'}
                                     fontSize={'xl'}
+                                    display={'flex'}
+                                    alignItems="center"
+                                    gap={4}
                                 >
                                     {' '}
+                                    <BsWordpress size={24} />
                                     Wordpress{' '}
                                 </Heading>
                             </AccordionButton>
                             <AccordionPanel pb={4} bg={'pallete.bg2'}>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.
+                                WordPress is a free and open content management
+                                system for the internet, based on PHP with a
+                                MySQL database, running on an interpreter
+                                server, aimed mainly at creating web pages and
+                                online blogs.
                             </AccordionPanel>
                         </AccordionItem>
                     </Accordion>
