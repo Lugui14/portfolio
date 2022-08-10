@@ -99,7 +99,10 @@ export const Form = () => {
                             bg={'pallete.bg2'}
                             border={'3px solid black'}
                         >
-                            <InputLeftElement children={<AiOutlineMail />} />
+                            <InputLeftElement>
+                                {' '}
+                                <AiOutlineMail />{' '}
+                            </InputLeftElement>
                             <Input
                                 {...register('email', {
                                     required: 'This is required',
