@@ -26,7 +26,9 @@ yarn dev #Roda o projeto na porta 3000
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
--`NextJS` -`Chakra UI` -`Send Grid`
+-   `NextJS`
+-   `Chakra UI`
+-   `Send Grid`
 
 ## Licença
 
