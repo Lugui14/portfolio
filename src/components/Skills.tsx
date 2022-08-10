@@ -51,7 +51,6 @@ export const Skills = () => {
                             <AccordionButton
                                 alignItems={'center'}
                                 justifyContent={'center'}
-                                borderBottom={'2px solid black'}
                             >
                                 <Heading
                                     as={'h2'}
@@ -84,7 +83,6 @@ export const Skills = () => {
                             <AccordionButton
                                 alignItems={'center'}
                                 justifyContent={'center'}
-                                borderBottom={'2px solid black'}
                             >
                                 <Heading
                                     as={'h2'}
@@ -119,7 +117,6 @@ export const Skills = () => {
                             <AccordionButton
                                 alignItems={'center'}
                                 justifyContent={'center'}
-                                borderBottom={'2px solid black'}
                             >
                                 <Heading
                                     as={'h2'}
@@ -155,7 +152,6 @@ export const Skills = () => {
                             <AccordionButton
                                 alignItems={'center'}
                                 justifyContent={'center'}
-                                borderBottom={'2px solid black'}
                             >
                                 <Heading
                                     as={'h2'}
@@ -189,7 +185,6 @@ export const Skills = () => {
                             <AccordionButton
                                 alignItems={'center'}
                                 justifyContent={'center'}
-                                borderBottom={'2px solid black'}
                             >
                                 <Heading
                                     as={'h2'}
@@ -221,7 +216,6 @@ export const Skills = () => {
                             <AccordionButton
                                 alignItems={'center'}
                                 justifyContent={'center'}
-                                borderBottom={'2px solid black'}
                             >
                                 <Heading
                                     as={'h2'}
