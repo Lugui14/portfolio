@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 
     useEffect(() => {
         colorMode === 'dark' && toggleColorMode();
-    }, []);
+    }, [colorMode]); // eslint-disable-line
 
     return (
         <>

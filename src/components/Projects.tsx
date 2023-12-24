@@ -55,6 +55,18 @@ export const Projects = () => {
                 gap={{ base: 8, sm: 6, lg: 16 }}
             >
                 <Card
+                    color={'pallete.white'}
+                    title={'Events By Desbravador'}
+                    imageUri={'eventos.svg'}
+                >
+                    In this project I was part of the team at the company
+                    Desbravador Software LTDA where I helped develop and
+                    maintain the event system. This system controls the
+                    management of hotels with many events and is built mainly in
+                    Java with Spring MVC and ReactJS, in addition to using
+                    microservices architecture.
+                </Card>
+                <Card
                     color={'pallete.purple'}
                     title={'Conveyor System'}
                     imageUri={'sistema.png'}
@@ -75,6 +87,16 @@ export const Projects = () => {
                     Native and NodeJS technologies, has a complete backend with
                     authentication system and dynamic interface updated in real
                     time.
+                </Card>
+                <Card
+                    color={'pallete.lightblue'}
+                    title={'Aroma Perfetto Cafè'}
+                    imageUri={'coffee.png'}
+                >
+                    Order and people management system for a small company
+                    selling coffee packages, with an order module, employee
+                    control, stock and report generation. Developed in ReactJS
+                    and NodeJS
                 </Card>
                 <Card
                     color={'pallete.yellow'}

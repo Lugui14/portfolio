@@ -31,7 +31,7 @@ export const Card = ({ title, color, imageUri, children }: ICardProps) => {
                 display={'flex'}
                 flexDir={'column'}
                 alignItems={'center'}
-                w={{ base: '80vw', md: '40vw' }}
+                w={{ base: '80vw', md: '25vw' }}
                 border={'2px solid black'}
                 boxShadow={'4px 4px black'}
                 rounded={8}

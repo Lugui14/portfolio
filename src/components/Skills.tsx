@@ -12,7 +12,7 @@ import { TbBrandNextjs } from 'react-icons/tb';
 import { SiTypescript } from 'react-icons/si';
 import { GrNode } from 'react-icons/gr';
 import { FiDatabase } from 'react-icons/fi';
-import { BsWordpress } from 'react-icons/bs';
+import { FaJava } from 'react-icons/fa';
 
 export const Skills = () => {
     return (
@@ -71,9 +71,9 @@ export const Skills = () => {
                                 bg={'pallete.bg2'}
                                 rounded={8}
                             >
-                                React is a JavaScript library of code open with
-                                a focus on creating user interfaces on web
-                                pages.
+                                Very widely used frontend JavaScript library, I
+                                have 2 years of experience using it and it is
+                                the main technology in my range of skills
                             </AccordionPanel>
                         </AccordionItem>
 
@@ -145,10 +145,11 @@ export const Skills = () => {
                                 pb={4}
                                 bg={'pallete.bg2'}
                             >
-                                TypeScript is an open source programming
-                                language developed by Microsoft. It is a strict
-                                syntactic superset of JavaScript and adds
-                                optional static typing to the language.
+                                TypeScript is is a strict syntactic superset of
+                                JavaScript and adds optional static typing to
+                                the language. I have experience in developing
+                                with typescript to improve the robustness and
+                                quality of my software
                             </AccordionPanel>
                         </AccordionItem>
                     </Accordion>
@@ -187,7 +188,8 @@ export const Skills = () => {
                                 Node.js is open source software, cross-platform,
                                 based on the V8 interpreter of Google and that
                                 allows code execution JavaScript outside of a
-                                web browser.
+                                web browser. I have experience using it to build
+                                APIs and microservices.
                             </AccordionPanel>
                         </AccordionItem>
 
@@ -221,8 +223,10 @@ export const Skills = () => {
                                 pb={4}
                                 bg={'pallete.bg2'}
                             >
-                                Databases or databases are sets of related files
-                                with records about people, places or things.
+                                Databases are sets of related files with records
+                                about people, places or things. I've worked a
+                                lot with PostgreSQL and have solid knowledge in
+                                managing relational databases.
                             </AccordionPanel>
                         </AccordionItem>
 
@@ -247,8 +251,8 @@ export const Skills = () => {
                                     gap={4}
                                 >
                                     {' '}
-                                    <BsWordpress size={24} />
-                                    Wordpress{' '}
+                                    <FaJava size={24} />
+                                    Java{' '}
                                 </Heading>
                             </AccordionButton>
                             <AccordionPanel
@@ -256,11 +260,11 @@ export const Skills = () => {
                                 pb={4}
                                 bg={'pallete.bg2'}
                             >
-                                WordPress is a free and open content management
-                                system for the internet, based on PHP with a
-                                MySQL database, running on an interpreter
-                                server, aimed mainly at creating web pages and
-                                online blogs.
+                                Java is an object-oriented programming language
+                                widely used in the world. I have one year of
+                                experience using the JAVA language using Spring
+                                Boot and MVC architecture, it is an extremely
+                                solid language and very satisfying to work with.
                             </AccordionPanel>
                         </AccordionItem>
                     </Accordion>

@@ -1,40 +1,27 @@
+import { mailOptions, transporter } from 'config/nodemailer';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import mail from '@sendgrid/mail';
 
-interface IData {
-    email: string;
-    name: string;
-    message: string;
-}
+const bodyText = (name: string, email: string, message: string) => `
+<h1> New message from ${name} </h1>
+<h3> Email: ${email} </h3>
+<p> ${message} </p>
+`;
 
-interface IRes {
-    response: string;
-}
+const mail = async (req: NextApiRequest, res: NextApiResponse) => {
+    const { name, email, message } = JSON.parse(req.body);
 
-mail.setApiKey(process.env.SENDGRID_API_KEY);
-
-export default (req: NextApiRequest, res: NextApiResponse<IRes>) => {
-    const { email, name, message }: IData = JSON.parse(req.body);
-
-    const formatedMessage: string = `
-      Name: ${name}\r\n
-      Email: ${email}\r\n
-      Message: ${message}
-    `;
-
-    const data = {
-        to: 'zanelallopes9977@gmail.com',
-        from: 'zanelallopes99977@gmail.com',
-        subject: 'New Message from Portfolio!',
-        text: formatedMessage,
-        html: formatedMessage.replace(/\r\n/g, '<br>'),
-    };
-
-    mail.send(data)
-        .then(() => {
-            res.status(200).json({ response: 'Email sent!' });
-        })
-        .catch((error) => {
-            res.status(error.code).json({ response: error });
+    try {
+        await transporter.sendMail({
+            ...mailOptions,
+            subject: `New message from PORTFOLIO`,
+            text: `New message from ${name} \n Email: ${email} \n ${message}`,
+            html: bodyText(name, email, message),
         });
+
+        return res.status(200).json({ message: 'Email sent successfully' });
+    } catch (error) {
+        return res.status(500).json({ message: 'Internal server error' });
+    }
 };
+
+export default mail;

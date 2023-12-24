@@ -1,6 +1,7 @@
 import type { AppProps } from 'next/app';
 import '@fontsource/bebas-neue';
 import '@fontsource/square-peg';
+import 'dotenv';
 
 import { ChakraProvider, CSSReset } from '@chakra-ui/react';
 import theme from '../styles/theme';
