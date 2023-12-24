@@ -50,7 +50,7 @@ export const Card = ({ title, color, imageUri, children }: ICardProps) => {
                     alt={title}
                     rounded={8}
                     mb={8}
-                    h={{ base: '10em', md: '16em' }}
+                    h={{ base: '10em', md: '12em' }}
                 />
                 <Heading
                     fontFamily="Bebas Neue"
